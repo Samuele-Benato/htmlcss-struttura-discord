@@ -12,7 +12,7 @@
 
 .header-container {
   width: 70%;
-  background: darkgoldenrod;
+  background: rgb(214, 171, 61);
   margin: 20px auto;
   padding: 10px;
 }
@@ -55,14 +55,30 @@ header {
   align-items: center;
 }
 
-/* SPACES */
-
-.col50 {
-  width: 50%;
+.justify-between {
+  justify-content: space-between;
 }
+
+/* SPACES */
 
 .col25 {
   width: 25%;
+}
+
+.col30 {
+  width: 30%;
+  background-color: #f08080;
+  min-height: 450px;
+}
+
+.col40 {
+  width: 40%;
+  background-color: #ffc0cb;
+  min-height: 450px;
+}
+
+.col50 {
+  width: 50%;
 }
 
 .col60 {
@@ -70,10 +86,15 @@ header {
   background-color: #1e90ff;
 }
 
-.col40 {
-  width: 40%;
-  background-color: #ffc0cb;
-  min-height: 450px;
+.col70 {
+  width: 70%;
+  background: #20b2aa;
+}
+
+.col100 {
+  width: 100%;
+  min-height: 700px;
+  background: #228b22;
 }
 
 .big-card {
@@ -88,10 +109,17 @@ header {
   width: 100%;
 }
 
-.padding {
+.main-padding {
   padding: 30px;
 }
 
+.footer-padding {
+  padding: 5px 30px 15px;
+}
 .bg-grey {
   background: #d3d3d3;
+}
+
+.bg-darkgrey {
+  background: #23272a;
 }
