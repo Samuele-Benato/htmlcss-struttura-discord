@@ -38,6 +38,10 @@ header {
   flex-direction: column;
 }
 
+.header-padding {
+  padding: 10px;
+}
+
 .main-padding {
   padding: 30px;
 }
