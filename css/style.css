@@ -91,3 +91,7 @@ header {
 .padding {
   padding: 30px;
 }
+
+.bg-grey {
+  background: #d3d3d3;
+}
